@@ -1,0 +1,8 @@
+plugin-name=demoplugin
+plugin-namespace=xpocket
+plugin-description=This is a example for XPocket Plugin DEF file.
+plugin-version=${version}
+plugin-author=PerfMa
+plugin-project=https://github.com/perfma/xpocket-plugin-archetype
+plugin-command-package=${package}
+main-implementation=${package}.ExampleXPocketPlugin

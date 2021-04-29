@@ -1,3 +1,5 @@
+package ${package};
+
 import com.perfma.xlab.xpocket.spi.command.AbstractXPocketCommand;
 import com.perfma.xlab.xpocket.spi.command.CommandInfo;
 import com.perfma.xlab.xpocket.spi.command.XPocketProcessTemplate;
@@ -18,9 +20,9 @@ public class ExampleXPocketCommand extends AbstractXPocketCommand {
                 (String cmd, String[] args) -> 
                 {
                     //do anything in this block
-                    String.format("EXECUTION %s %s",cmd , 
-                        args == null ? null : Arrays.toString(args)));
-                }
+                    return String.format("EXECUTION %s %s",cmd , 
+                        args == null ? null : Arrays.toString(args));
+                });
     }
 
 }
