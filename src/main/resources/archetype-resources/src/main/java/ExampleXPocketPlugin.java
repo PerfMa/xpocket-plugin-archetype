@@ -1,3 +1,5 @@
+package ${package};
+
 import com.perfma.xlab.xpocket.spi.AbstractXPocketPlugin;
 import com.perfma.xlab.xpocket.spi.context.SessionContext;
 import com.perfma.xlab.xpocket.spi.process.XPocketProcess;
